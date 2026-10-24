@@ -1,6 +1,8 @@
 
-const API_URL = "http://localhost:5000/api/assignments";
-const AUTH_URL = "http://localhost:5000/api/auth";
+const API_URL =
+  "https://student-assignment-management-system-g3cd.onrender.com/api/assignments";
+const AUTH_URL =
+  "https://student-assignment-management-system-g3cd.onrender.com/api/auth";
 
 // Register a student
 export async function registerUser(name, email, password) {
